@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.29318.209
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eklm.WebAPI", "Eklm.WebAPI\Eklm.WebAPI.csproj", "{7173DB38-D222-4C81-8C8C-CFBF70DF129D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eklm.Core", "Eklm.Core\Eklm.Core.csproj", "{F53686B7-BA7D-47DC-B80A-76BA47E8A7EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eklm.Infrastructure", "Eklm.Infrastructure\Eklm.Infrastructure.csproj", "{36AE4933-52D8-4CF4-8331-C92A351AEFDF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{7173DB38-D222-4C81-8C8C-CFBF70DF129D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7173DB38-D222-4C81-8C8C-CFBF70DF129D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7173DB38-D222-4C81-8C8C-CFBF70DF129D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F53686B7-BA7D-47DC-B80A-76BA47E8A7EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F53686B7-BA7D-47DC-B80A-76BA47E8A7EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F53686B7-BA7D-47DC-B80A-76BA47E8A7EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F53686B7-BA7D-47DC-B80A-76BA47E8A7EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36AE4933-52D8-4CF4-8331-C92A351AEFDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36AE4933-52D8-4CF4-8331-C92A351AEFDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36AE4933-52D8-4CF4-8331-C92A351AEFDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36AE4933-52D8-4CF4-8331-C92A351AEFDF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
